@@ -1,4 +1,6 @@
 {
   "block.mildly_interesting_biomes.dormant_sand": "Dormant Sand",
-  "block.mildly_interesting_biomes.blooming_sand": "Blooming Sand"
+  "biome.mildly_interesting_biomes.dormant_desert": "Dormant Desert",
+  "block.mildly_interesting_biomes.blooming_sand": "Blooming Sand",
+  "biome.mildly_interesting_biomes.blooming_desert": "Blooming Desert"
 }

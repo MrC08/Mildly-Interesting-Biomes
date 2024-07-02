@@ -112,6 +112,34 @@
           }
         ]
       }
+    },
+    {
+      "name": "DormantDesert",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dormant_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mildly_interesting_biomes/worldgen/biome/dormant_desert.json"
+        ]
+      }
+    },
+    {
+      "name": "BloomingDesert",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blooming_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mildly_interesting_biomes/worldgen/biome/blooming_desert.json",
+          "src/main/resources/data/mildly_interesting_biomes/worldgen/configured_feature/blooming_desert_tree.json",
+          "src/main/resources/data/mildly_interesting_biomes/worldgen/placed_feature/blooming_desert_tree.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -119,7 +147,9 @@
   "language_map": {
     "en_us": {
       "block.mildly_interesting_biomes.dormant_sand": "Dormant Sand",
-      "block.mildly_interesting_biomes.blooming_sand": "Blooming Sand"
+      "biome.mildly_interesting_biomes.dormant_desert": "Dormant Desert",
+      "block.mildly_interesting_biomes.blooming_sand": "Blooming Sand",
+      "biome.mildly_interesting_biomes.blooming_desert": "Blooming Desert"
     }
   },
   "foldersRoot": {

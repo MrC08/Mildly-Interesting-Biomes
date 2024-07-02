@@ -119,9 +119,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": {
-      "name": "BloomingSandUpdateTick"
-    },
     "onTickUpdate": {
       "name": "BloomingSandUpdateTick"
     },
