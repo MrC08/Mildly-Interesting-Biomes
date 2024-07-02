@@ -52,7 +52,7 @@
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
@@ -119,6 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "BloomingSandUpdateTick"
+    },
     "onTickUpdate": {
       "name": "BloomingSandUpdateTick"
     },
