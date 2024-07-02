@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mildly_interesting_biomes:block/blooming_sand_3",
+    "up": "mildly_interesting_biomes:block/blooming_sand_3",
+    "north": "mildly_interesting_biomes:block/blooming_sand_3",
+    "east": "mildly_interesting_biomes:block/blooming_sand_3",
+    "south": "mildly_interesting_biomes:block/blooming_sand_3",
+    "west": "mildly_interesting_biomes:block/blooming_sand_3",
+    "particle": "mildly_interesting_biomes:block/blooming_sand_3"
+  },
+  "render_type": "solid"
+}

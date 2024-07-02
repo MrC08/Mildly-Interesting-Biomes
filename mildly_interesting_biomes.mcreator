@@ -1,9 +1,127 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "DormantSand",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dormant_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mildly_interesting_biomes/blockstates/dormant_sand.json",
+          "src/main/resources/assets/mildly_interesting_biomes/models/item/dormant_sand.json",
+          "src/main/java/net/essorant/mildly_interesting_biomes/block/DormantSandBlock.java",
+          "src/main/resources/assets/mildly_interesting_biomes/models/block/dormant_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "BloomingSand",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blooming_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mildly_interesting_biomes/models/item/blooming_sand.json",
+          "src/main/java/net/essorant/mildly_interesting_biomes/block/BloomingSandBlock.java",
+          "src/main/resources/assets/mildly_interesting_biomes/models/block/blooming_sand.json",
+          "src/main/resources/assets/mildly_interesting_biomes/blockstates/blooming_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "BloomingSandBlockstates",
+      "type": "blockstates",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blooming_sand_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mildly_interesting_biomes/models/block/blooming_sand_blockstates_blockstate_2.json",
+          "src/main/resources/assets/mildly_interesting_biomes/models/block/blooming_sand_blockstates_blockstate_0.json",
+          "src/main/resources/assets/mildly_interesting_biomes/models/block/blooming_sand_blockstates_blockstate_3.json",
+          "src/main/resources/assets/mildly_interesting_biomes/models/block/blooming_sand_blockstates_blockstate_1.json"
+        ]
+      }
+    },
+    {
+      "name": "DormantSandUpdateTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dormant_sand_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/essorant/mildly_interesting_biomes/procedures/DormantSandUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloomingSandUpdateTick",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blooming_sand_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/essorant/mildly_interesting_biomes/procedures/BloomingSandUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.mildly_interesting_biomes.dormant_sand": "Dormant Sand",
+      "block.mildly_interesting_biomes.blooming_sand": "Blooming Sand"
+    }
   },
   "foldersRoot": {
     "name": "~",

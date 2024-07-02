@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mildly_interesting_biomes:block/dormant_sand",
+    "up": "mildly_interesting_biomes:block/dormant_sand",
+    "north": "mildly_interesting_biomes:block/dormant_sand",
+    "east": "mildly_interesting_biomes:block/dormant_sand",
+    "south": "mildly_interesting_biomes:block/dormant_sand",
+    "west": "mildly_interesting_biomes:block/dormant_sand",
+    "particle": "mildly_interesting_biomes:block/dormant_sand"
+  },
+  "render_type": "solid"
+}

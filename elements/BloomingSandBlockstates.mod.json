@@ -1,0 +1,61 @@
+{
+  "_fv": 57,
+  "_type": "blockstates",
+  "definition": {
+    "block": "BloomingSand",
+    "blockstateList": [
+      {
+        "texture": "blooming_sand_0",
+        "textureTop": "blooming_sand_0",
+        "textureLeft": "blooming_sand_0",
+        "textureFront": "blooming_sand_0",
+        "textureRight": "blooming_sand_0",
+        "textureBack": "blooming_sand_0",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "blooming_sand_1",
+        "textureTop": "blooming_sand_1",
+        "textureLeft": "blooming_sand_1",
+        "textureFront": "blooming_sand_1",
+        "textureRight": "blooming_sand_1",
+        "textureBack": "blooming_sand_1",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "blooming_sand_2",
+        "textureTop": "blooming_sand_2",
+        "textureLeft": "blooming_sand_2",
+        "textureFront": "blooming_sand_2",
+        "textureRight": "blooming_sand_2",
+        "textureBack": "blooming_sand_2",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "blooming_sand_3",
+        "textureTop": "blooming_sand_3",
+        "textureLeft": "blooming_sand_3",
+        "textureFront": "blooming_sand_3",
+        "textureRight": "blooming_sand_3",
+        "textureBack": "blooming_sand_3",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

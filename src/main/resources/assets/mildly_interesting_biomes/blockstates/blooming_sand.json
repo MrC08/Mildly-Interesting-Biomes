@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "mildly_interesting_biomes:block/blooming_sand"
+    },
+    "blockstate=1": {
+      "model": "mildly_interesting_biomes:block/blooming_sand_blockstates_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "mildly_interesting_biomes:block/blooming_sand_blockstates_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "mildly_interesting_biomes:block/blooming_sand_blockstates_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "mildly_interesting_biomes:block/blooming_sand_blockstates_blockstate_3"
+    }
+  }
+}

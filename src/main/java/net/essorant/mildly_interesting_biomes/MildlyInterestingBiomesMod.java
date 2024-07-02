@@ -29,6 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.essorant.mildly_interesting_biomes.init.MildlyInterestingBiomesModTabs;
+import net.essorant.mildly_interesting_biomes.init.MildlyInterestingBiomesModItems;
+import net.essorant.mildly_interesting_biomes.init.MildlyInterestingBiomesModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +50,12 @@ public class MildlyInterestingBiomesMod {
 	public MildlyInterestingBiomesMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MildlyInterestingBiomesModBlocks.REGISTRY.register(bus);
+
+		MildlyInterestingBiomesModItems.REGISTRY.register(bus);
+
+		MildlyInterestingBiomesModTabs.REGISTRY.register(bus);
 
 	}
 
