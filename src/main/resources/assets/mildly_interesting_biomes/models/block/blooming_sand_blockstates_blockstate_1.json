@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "mildly_interesting_biomes:block/blooming_sand_1",
-    "up": "mildly_interesting_biomes:block/blooming_sand_1",
-    "north": "mildly_interesting_biomes:block/blooming_sand_1",
-    "east": "mildly_interesting_biomes:block/blooming_sand_1",
-    "south": "mildly_interesting_biomes:block/blooming_sand_1",
-    "west": "mildly_interesting_biomes:block/blooming_sand_1",
+    "down": "mildly_interesting_biomes:block/blooming_sand_2",
+    "up": "mildly_interesting_biomes:block/blooming_sand_2",
+    "north": "mildly_interesting_biomes:block/blooming_sand_2",
+    "east": "mildly_interesting_biomes:block/blooming_sand_2",
+    "south": "mildly_interesting_biomes:block/blooming_sand_2",
+    "west": "mildly_interesting_biomes:block/blooming_sand_2",
     "particle": "mildly_interesting_biomes:block/blooming_sand_0"
   },
   "render_type": "solid"

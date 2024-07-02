@@ -9,7 +9,7 @@ import net.essorant.mildly_interesting_biomes.init.MildlyInterestingBiomesModBlo
 
 public class BloomingSandUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, BlockState blockstate) {
-		if (Math.random() < 0.15 + (blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip1 ? blockstate.getValue(_getip1) : -1) / 10) {
+		if (Math.random() < 0.2 + (blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip1 ? blockstate.getValue(_getip1) : -1) / 10) {
 			if (world.getLevelData().isRaining()) {
 				if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip4 ? blockstate.getValue(_getip4) : -1) < 3) {
 					{
