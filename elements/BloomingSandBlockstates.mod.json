@@ -42,19 +42,6 @@
         "customModelName": "Normal",
         "luminance": 0,
         "boundingBoxes": []
-      },
-      {
-        "texture": "blooming_sand_3",
-        "textureTop": "blooming_sand_3",
-        "textureLeft": "blooming_sand_3",
-        "textureFront": "blooming_sand_3",
-        "textureRight": "blooming_sand_3",
-        "textureBack": "blooming_sand_3",
-        "particleTexture": "",
-        "renderType": 0,
-        "customModelName": "Normal",
-        "luminance": 0,
-        "boundingBoxes": []
       }
     ]
   }

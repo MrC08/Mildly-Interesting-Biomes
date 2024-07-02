@@ -11,9 +11,6 @@
     },
     "blockstate=3": {
       "model": "mildly_interesting_biomes:block/blooming_sand_blockstates_blockstate_2"
-    },
-    "blockstate=4": {
-      "model": "mildly_interesting_biomes:block/blooming_sand_blockstates_blockstate_3"
     }
   }
 }

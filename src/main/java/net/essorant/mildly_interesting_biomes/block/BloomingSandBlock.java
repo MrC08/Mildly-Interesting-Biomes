@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Collections;
 
 public class BloomingSandBlock extends Block {
-	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 4);
+	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 3);
 
 	public BloomingSandBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.WET_GRASS).strength(0.5f).lightLevel(s -> (new Object() {
@@ -36,8 +36,6 @@ public class BloomingSandBlock extends Block {
 				if (s.getValue(BLOCKSTATE) == 2)
 					return 0;
 				if (s.getValue(BLOCKSTATE) == 3)
-					return 0;
-				if (s.getValue(BLOCKSTATE) == 4)
 					return 0;
 				return 0;
 			}

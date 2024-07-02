@@ -7,7 +7,7 @@
     "east": "mildly_interesting_biomes:block/blooming_sand_0",
     "south": "mildly_interesting_biomes:block/blooming_sand_0",
     "west": "mildly_interesting_biomes:block/blooming_sand_0",
-    "particle": "mildly_interesting_biomes:block/blooming_sand_3"
+    "particle": "mildly_interesting_biomes:block/blooming_sand_0"
   },
   "render_type": "solid"
 }

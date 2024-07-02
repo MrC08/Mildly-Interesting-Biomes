@@ -43,7 +43,6 @@
         "files": [
           "src/main/resources/assets/mildly_interesting_biomes/models/block/blooming_sand_blockstates_blockstate_2.json",
           "src/main/resources/assets/mildly_interesting_biomes/models/block/blooming_sand_blockstates_blockstate_0.json",
-          "src/main/resources/assets/mildly_interesting_biomes/models/block/blooming_sand_blockstates_blockstate_3.json",
           "src/main/resources/assets/mildly_interesting_biomes/models/block/blooming_sand_blockstates_blockstate_1.json"
         ]
       }
